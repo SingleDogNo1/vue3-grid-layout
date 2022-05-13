@@ -1,0 +1,25 @@
+{
+  "name": "vue3-grid-layout",
+  "private": false,
+  "version": "1.0.0",
+  "main": "dist/my-vue-app.umd.js",
+  "module": "dist/my-vue-app.es.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build --config ./build/build.ts",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vueuse/core": "^8.4.2",
+    "interactjs": "^1.10.11",
+    "mitt": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.33",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "typescript": "^4.6.4",
+    "vite": "^2.9.9",
+    "vue": "^3.2.25",
+    "vue-tsc": "^0.34.13"
+  }
+}
